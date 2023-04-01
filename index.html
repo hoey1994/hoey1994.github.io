@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div>
-                                <a target="_blank" href="http://chat.hoey.tk/" aria-label="ChatBot" data-balloon-pos="down">
+                                <a target="_blank" onclick="showChatGPT()" aria-label="ChatBot" data-balloon-pos="down">
     <!--                                <i class="fa fa-facebook icon-font fa-icon-facebook"></i>-->
                                     <img src="./assert/img/icons8-chatgpt-gradient-32.png"/>
                                 </a>
@@ -97,6 +97,15 @@
         var password = prompt("世界上最帅的男人是谁?");
         if (password === "hoey.tk") {
             window.location.href = "https://blog.hoey.tk/";
+        } else {
+            alert("哈哈哈,不对,联系我要密码!");
+        }
+    }
+
+    function showChatGPT() {
+        var password = prompt("世界上最帅的男人是谁?");
+        if (password === "hoey.tk") {
+            window.location.href = "http://chat.hoey.tk/";
         } else {
             alert("哈哈哈,不对,联系我要密码!");
         }
