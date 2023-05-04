@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4046735 */
+  src: url('iconfont.woff2?t=1683211148643') format('woff2'),
+       url('iconfont.woff?t=1683211148643') format('woff'),
+       url('iconfont.ttf?t=1683211148643') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wangpan:before {
+  content: "\e6e1";
+}
+
+.icon-baiduwangpan:before {
+  content: "\e610";
+}
+
+.icon-download:before {
+  content: "\e79a";
+}
+
+.icon-luyouqi:before {
+  content: "\e61f";
+}
+
+.icon-luyouqi1:before {
+  content: "\e603";
+}
+
+.icon-luyouqi2:before {
+  content: "\e647";
+}
+
+.icon-shumatubiaozhizuochunsezhuanqu-:before {
+  content: "\e605";
+}
+
+.icon-icon_luyouqi:before {
+  content: "\e61a";
+}
+
+.icon-film1:before {
+  content: "\e6e3";
+}
+
+.icon-ziyuan1452:before {
+  content: "\e629";
+}
+
+.icon-Download:before {
+  content: "\e771";
+}
+
+.icon-luyouqi-TPlink:before {
+  content: "\e69d";
+}
+
+.icon-film:before {
+  content: "\e65e";
+}
+
+.icon-NASshebei:before {
+  content: "\e67d";
+}
+
